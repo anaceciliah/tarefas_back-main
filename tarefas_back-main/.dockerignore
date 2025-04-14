@@ -1,0 +1,23 @@
+# Ignorar node_modules (será instalado no contêiner)
+node_modules
+
+# Ignorar arquivos de log
+*.log
+
+# Ignorar arquivos temporários do sistema
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+
+# Ignorar arquivos de configuração locais
+.env
+.env.local
+
+# Ignorar diretórios específicos
+.git
+.gitignore
+.vscode
+
+# Ignorar outros arquivos desnecessários
+docker-compose.override.yml
